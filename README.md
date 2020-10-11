@@ -1,7 +1,7 @@
 # Troponophanes-10-Annulenes
 
-Studies on 2,7-bridged Tropones
-- \[4\](2,7)-Troponophanes -
+Studies on 2,7-bridged Tropones</br>
+ \- \[4\](2,7)-Troponophanes \-
 
 This is my thesis written in german, I release it into the public domain.
 
