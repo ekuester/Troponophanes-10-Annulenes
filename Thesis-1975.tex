@@ -22,6 +22,7 @@
 \usepackage[ghsystem=false]{chemmacros}
 % syntax for chemfig node
 % <bond>[<angle>,<length factor>,<departure atom>,<arrival atom>,<TikZ options>]
+% since chemfig v1.56, you must replace node name arccenter with cyclecenter1.
 \usepackage{chemfig}
 \usetikzlibrary{decorations,positioning,calc}
 % numbering of formulas
@@ -285,13 +286,13 @@ Hückel'schen Regel herausgestellt wurde.
 \arrow(aa.mid east--bb.mid west){<-}
 \arrow(@aa.-6--@bb.-174.8){->}% numbers are angles from center
 \chemname{% 
-\chemfig{**[,,dash pattern=on 2pt off 2pt,late options={name=arccenter,label=center:{$\oplus$}}]7(---(-[,0.9]O^{\ominus})----)}
+\chemfig{**[,,dash pattern=on 2pt off 2pt,late options={name=cyclecenter1,label=center:{$\oplus$}}]7(---(-[,0.9]O^{\ominus})----)}
 }{\cmpd{tropyliumoxid}}%
 % invisible shortened arrow to separate compounds and align them
 \arrow(.mid east--.mid west){0}
 % Tropyliumbromid
 \chemname{%
-\chemfig{**[,,dash pattern=on 2pt off 2pt,late options={name=arccenter,label=center:{$\oplus$}}]%
+\chemfig{**[,,dash pattern=on 2pt off 2pt,late options={name=cyclecenter1,label=center:{$\oplus$}}]%
 7(---(-[,0.9,,,draw=none]Br^{\ominus})----)}%
 }{\cmpd{tropyliumbromid}}%
 \schemestop
@@ -371,7 +372,7 @@ nonen - gewisse krypto-aromatische Eigenschaften nicht abgespro-
  \arrow(@c1--){->[\chemfig{H^{\oplus}}]}
 % Tropyliumhydroxid (4)
 \chemname{
-   \chemfig{**[,,dash pattern=on 2pt off 2pt,late options={name=arccenter,label=center:{$\oplus$}}]7(---(-[,0.9]OH)----)}
+   \chemfig{**[,,dash pattern=on 2pt off 2pt,late options={name=cyclecenter1,label=center:{$\oplus$}}]7(---(-[,0.9]OH)----)}
 }{\cmpd{tropyliumhydroxid}}
 \schemestop
 \chemnameinit{}
@@ -446,7 +447,7 @@ lässt sich dieser Trend belegen \raise0.5ex\hbox{[28b]}.
 \chemname{
 % delocalized electrons with dash pattern, plus sign in center of 7 ring
 \chemfig{**[-45,-315,dash pattern=on 2pt off 2pt]%
-6(--**[-150,150,dash pattern=on 2pt off 2pt,late options={name=arccenter,label=center:{$\oplus$}}]%
+6(--**[-150,150,dash pattern=on 2pt off 2pt,late options={name=cyclecenter2,label=center:{$\oplus$}}]%
 7(--@{u}-(-[,2.0,,,draw=none]{(}@{c}CH_2{)}_n-[,0.4,,,draw=none])-@{o}--)----)}%
 }{\cmpd{benzontropyliumphan}%
 \chemmove{\draw[-](o).. controls +(30:1.0cm) and +(102:1.0cm).. (c);}
@@ -554,7 +555,7 @@ bindungen des Typs (11] aus Analogiegründen mit einigem Recht als
 \chemmove{\draw[-](u).. controls +(-30:1.0cm) and +(-102:1.0cm).. (c);}
 \arrow{->[\chemfig{CF_3CO_2H}]}[,1.4]
 \chemname[2.0ex]{%
-\chemfig{**[,,dash pattern=on 2pt off 2pt,late options={name=arccenter,label=center:{$\oplus$}}]%
+\chemfig{**[,,dash pattern=on 2pt off 2pt,late options={name=cyclecenter1,label=center:{$\oplus$}}]%
 7(--@{un}-(-[,0.7]OH-[,1.6,,,draw=none]{(}@{c}CH_2{)})-@{ob}---)}%
 }{\cmpd{neuntropyliumphan}\bf f}
 \chemmove{\draw[-](ob).. controls +(30:1.0cm) and +(102:1.0cm).. (c);}
