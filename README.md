@@ -1,7 +1,7 @@
-A N N O T A T I O N S
+# Thesis: Studies on bridged Troponophanes
+## Title: Studies on 2,7-bridged Tropones - \[4\](2,7)-Troponophanes -
 
-Studies on 2,7-bridged Tropones</br>
-- \[4\](2,7)-Troponophanes -
+### Annotations
 
 This is my thesis written in german, I release it into the public domain.
 
@@ -20,9 +20,11 @@ The spectra and other diagrams were cut out of the scanned image files and inclu
 The final output (compiled at least in two passes) resulted in thesis-1975.pdf in Adobe's portable document format.
 
 With a special perl-based command in terminal this task is automagically simple:
-```latexmk -pdf Thesis-1975.tex```
 
-Using your preferred GUI for that purpose is possible, of course.
+```
+    latexmk -pdf Thesis-1975.tex
+```
+Alternatively use your preferred GUI in known manner.
 
 You can learn a lot about LaTeX and TeX as I had to in doing this piece of work ...
 
