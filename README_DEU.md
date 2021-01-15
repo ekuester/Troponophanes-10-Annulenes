@@ -1,11 +1,10 @@
-A N M E R K U N G E N
-
-Studien an 2,7-verbrückten Troponen</br>
-- \[4\](2,7)Troponophane -
+# Dissertation: Studien an verbrückten Troponen
+## Titel: Studien an 2,7-verbrückten Troponen - \[4\](2,7)-Troponophane -
+### Anmerkungen
 
 Dies ist meine Doktorarbeit. Ich stelle sie der public domain zur Verfügung.
 
-Diese Arbeit wurde im Jahr 1975 auf einer Olivetti Praxis 48 Schreibmaschine\*) geschrieben.
+Die Arbeit wurde im Jahr 1975 auf einer Olivetti Praxis 48 Schreibmaschine\*) geschrieben.
 
 Nach mehr als 40 Jahren beschloss ich, die Arbeit zu digitalisieren und ins Internet zu bringen.
 
@@ -21,9 +20,10 @@ Die Spektren wurden aus den Bilddateien ausgeschnitten und in das TeX–Dokument
 Die endgültige Ausgabe (kompiliert in mindestens zwei Durchgängen) führte zu Thesis-1975.pdf in Adobes portablen Dokumentformat.
 
 Mit einem speziellen Perl-basierten Befehl im Terminal ist diese Aufgabe automagisch einfach:
-```latexmk -pdf Thesis-1975.tex```
 
-Die Verwendung Ihrer bevorzugten GUI für diesen Zweck ist natürlich möglich.
+```latexmk -pdf Thesis-1975.tex
+```
+Als Alternative benutzt die bevorzugte GUI in bekannter Weise.
 
 Sie können viel über LaTeX und TeX lernen, wie ich es bei dieser Arbeit tun musste ...
 
