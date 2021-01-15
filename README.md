@@ -1,4 +1,4 @@
-# Thesis: Studies on bridged Troponophanes
+# Thesis: Studies on bridged Tropones
 ## Title: Studies on 2,7-bridged Tropones - \[4\](2,7)-Troponophanes -
 
 ### Annotations
