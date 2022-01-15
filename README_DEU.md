@@ -21,9 +21,10 @@ Die endgültige Ausgabe (kompiliert in mindestens zwei Durchgängen) führte zu 
 
 Mit einem speziellen Perl-basierten Befehl im Terminal ist diese Aufgabe automagisch einfach:
 
-```latexmk -pdf Thesis-1975.tex
 ```
-Als Alternative benutzt die bevorzugte GUI in bekannter Weise.
+    latexmk -pdf Thesis-1975.tex
+```
+Als Alternative kann natürlich in bekannter Weise Ihre bevorzugte GUI dienen.
 
 Sie können viel über LaTeX und TeX lernen, wie ich es bei dieser Arbeit tun musste ...
 
